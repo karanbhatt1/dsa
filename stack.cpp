@@ -23,10 +23,11 @@ int main() {
     cin>>st.size;
     st.s = new int[st.size-1];
     cout<<"Enter the elements of stack:\n";
+	int a;
     for(int i=0;i<=st.size;i++)
     {
-    	cin>>i;
-        push(&st,i);
+    	cin>>a;
+        push(&st,a);
     }
     cout<<"The elements in the stack are :\n";
     for(int j=st.top;j>=0;j--)
